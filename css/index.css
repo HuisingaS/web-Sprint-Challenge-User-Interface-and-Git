@@ -66,6 +66,10 @@ p {
     line-height: 1.4;
 }
 
+a {
+  color: black;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -337,6 +341,10 @@ footer nav a {
 
 .letsWork {
     margin: 2%;
+}
+
+a.navbot {
+    color: white;
 }
 
 /*-------------End about.html Page-------------*/
