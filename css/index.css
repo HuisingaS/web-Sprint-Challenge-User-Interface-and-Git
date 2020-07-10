@@ -66,14 +66,12 @@ p {
     line-height: 1.4;
 }
 
-
 a:link {
     text-decoration: none;
 }
   
 a:visited {
     text-decoration: none;
-    color: black;
 }
   
 a:hover {
@@ -83,6 +81,8 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+/*-------------Begin Nav Section-----------*/
 
 nav {
     display: flex;
@@ -97,8 +97,11 @@ nav {
     margin-right: 7% 
 }
 
+/*-------------End Nav Section-----------*/
+/*-------------Begin index.html Section-----------*/
+
 .headImg {
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 3%
 }
 
@@ -138,8 +141,6 @@ nav {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -150,8 +151,8 @@ nav {
 
 .box1 {
     background-color: teal;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -159,8 +160,8 @@ nav {
 }
 .box2 {
     background-color: gold;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -168,8 +169,8 @@ nav {
 }
 .box3 {
     background-color: cadetblue;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -177,8 +178,8 @@ nav {
 }
 .box4 {
     background-color: coral;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -186,8 +187,8 @@ nav {
 }
 .box5 {
     background-color: crimson;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -195,8 +196,8 @@ nav {
 }
 .box6 {
     background-color: forestgreen;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -204,8 +205,8 @@ nav {
 }
 .box7 {
     background-color: darkorchid;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -213,8 +214,8 @@ nav {
 }
 .box8 {
     background-color: hotpink;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -222,8 +223,8 @@ nav {
 }
 .box9 {
     background-color: indigo;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -231,8 +232,8 @@ nav {
 }
 .box10 {
     background-color: dodgerblue;
+    height: 12.5%;
     width: 12.5%;
-    height: 100px;
     margin: 20px 2.5%;
     text-align: center;
     vertical-align: middle;
@@ -272,10 +273,8 @@ footer nav a {
     text-decoration: none;
 }
 
-
-/*-------------End "Home" Page-----------------  */
-/*-------------Begin "About" Page--------------  */
-
+/*-------------End index.html Page---------------*/
+/*-------------Begin about.html Page-------------*/
 
 .aboutLambda {
     margin-bottom: 2%;
@@ -303,18 +302,19 @@ footer nav a {
     border: solid black 2px;
     border-radius: 15%;
     padding: 2.5%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     margin-left: 2%;
 }
 
 .details {
-    width: 53%;
+    width: 95%;
     margin-left: 2%;
-    margin-bottom: 2%
+    margin-bottom: 4%;
 }
 
 .imgTitle {
     margin-left: 2%;
+    margin-top: 2%;
 }
 
 .aboutBlocks {
@@ -328,4 +328,12 @@ footer nav a {
 
 .letsWork {
     margin: 2%;
+}
+
+/*-------------End about.html Page-------------*/
+/*-------------Begin mock up pages-------------*/
+.explainYourself{
+    font-size: 4rem;
+    padding-top: 40%;
+    padding-bottom: 40%;
 }
